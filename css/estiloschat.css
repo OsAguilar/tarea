@@ -1,0 +1,105 @@
+.contenedorchatbot {
+    background-color: rgb(130, 240, 240);
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    padding: 10px;
+    border: 3px solid #4e9494;
+    /*posisicion del boton con las siguientes tres lineas*/
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50px;
+}
+
+.btnchatbot {
+    width: 100%;
+}
+
+
+
+.btnchatbot:hover {
+    transform: scale(1.1);
+}
+
+.cuadrochatbot{
+    background-color: rgb(70, 148, 148);
+    width: 300px;
+    height: 400px;
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 20px;
+    padding: 0 5px;
+}
+
+.encabezadochatbot {
+    background-color: gray;
+    width: 270px;
+    height: 30px;
+    border-radius: 20px;  
+    color: gainsboro;
+    font-size: larger; 
+}
+
+.encabezadochat {
+    padding: 10px;
+}
+
+.btncerrar{
+    width: 20px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+}
+
+.btncerrar:hover{
+    transform: scale(1.2);
+}
+
+.chatchatbot {
+    background-color: rgb(71, 191, 71);
+    height: 270px;
+    padding: 5px;
+    margin: 5px;
+    overflow: scroll;
+}
+
+.escriturachatbot {
+    margin: 5px, 0, 0 , 0px;
+    background-color: ivory;
+    height: 27px;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.btnenviar {
+    width: 25px;
+    float: right;
+}
+
+.btnenviar:hover {
+    transform: scale(1.1);
+
+}
+
+.mensajes {
+    height: 20px;
+    width: 250px;
+    border: 1px solid rgb(255, 255, 255);
+    color: slategrey;
+    float: left;
+
+}
+
+.mensajes:focus {
+    height: 20px;
+    border: 1px solid rgb(255, 255, 255)
+}
+
+.mensajeusuario {
+    text-align: right;
+    color: fuchsia;
+}

@@ -1,0 +1,48 @@
+/*.contenido {
+    background-color: lightseagreen;
+    
+}*/
+
+.contenedorbotones img{
+    width: 60px;    
+}
+
+.contenedorbotones img:hover {
+    transform: scale(1.1);
+}
+
+
+.contenedorimagen img {
+    width: 400px;  
+    text-align: center;  
+}
+
+
+
+.contenedortabla td {
+    border: white 1px solid;
+}
+
+.tabla {
+    
+    margin: 50px;
+    background-color: lightslategray;
+    border: rgb(228, 226, 223) 1px solid;
+    text-align: center;
+}
+
+
+.fila td {
+    border: rgb(247, 245, 243) 1px solid;
+    width: 200px;
+}
+
+.cent {
+    text-align: justify;
+}
+.tabla tr:hover{
+    background-color: tomato;
+    transform: scale(1.1);
+}
+
+

@@ -1,0 +1,34 @@
+.menu {
+    background-color: red;
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+    color: cornsilk;
+    float: left;
+    margin: 10px;
+}
+
+.menu img {
+    width: 200px;
+}
+
+.fotos img {
+    width: 200px;
+
+}
+
+menu li:hover{
+    background-color: indianred;
+    height: 50px;
+}
+
+.tamaño img{
+    text-align: center;
+    width: 30px;
+    margin: 10px;
+}
+
+.tamaño img:hover {
+    
+    transform: scale(1.4);
+}
